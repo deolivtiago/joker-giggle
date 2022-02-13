@@ -3,13 +3,31 @@
   "version": "1.0.0",
   "description": "Template Node + TS",
   "main": "index.js",
-  "repository": "github.com/olvrti/joker-giggle.git",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olvrti/joker-giggle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olvrti/joker-giggle/issues"
+  },
+  "homepage": "https://github.com/olvrti/joker-giggle#readme",
   "author": "Tiago de Oliveira <olvrti@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.17",
+    "eslint": "^7.12.1",
     "git-commit-msg-linter": "^4.0.7",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
   }
 }

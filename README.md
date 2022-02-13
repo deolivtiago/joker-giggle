@@ -32,3 +32,13 @@
       npx tsc --init --outdir dist --target es2020
 
       - check tsconfig.json content
+
+- chore: add eslint
+
+      yarn add -D eslint
+      npm i -D eslint
+
+      yarn eslint --init
+      npx eslint --init
+
+  - vscode plugin required
