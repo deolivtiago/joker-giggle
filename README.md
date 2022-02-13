@@ -1,8 +1,11 @@
 # Node project template
 
+### configuration
+
   - typescript
   - eslint
   - jest
+
 ### requirements
 
   - node
