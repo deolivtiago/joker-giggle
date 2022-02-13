@@ -1,17 +1,20 @@
-## Template Node + TS project
+# Node project template
 
+  - typescript
+  - eslint
+  - jest
 ### requirements
 
   - node
   - git
   - yarn (optional)
 
+### settings
+
 - chore: init node project
 
       git init
       touch .gitignore
-
-        - check .gitignore content
 
       yarn init
       npm init
@@ -29,7 +32,7 @@
       yarn tsc --init --outDir dist --target es2020
       npx tsc --init --outdir dist --target es2020
 
-      - check tsconfig.json content
+    - check tsconfig.json content
 
 - chore: add eslint
 
@@ -49,4 +52,4 @@
       yarn jest --init
       npx jest --init
 
-      - check jest.config.ts content
+    - check jest.config.ts content
