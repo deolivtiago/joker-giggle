@@ -1,5 +1,3 @@
-
-
 ## Template Node + TS project
 
 ### requirements
@@ -41,4 +39,14 @@
       yarn eslint --init
       npx eslint --init
 
-  - vscode plugin required
+    - vscode plugin required
+
+- chore: add jest
+
+      yarn add -D jest @types/jest ts-jest
+      npm i -D jest @types/jest ts-jest
+
+      yarn jest --init
+      npx jest --init
+
+      - check jest.config.ts content

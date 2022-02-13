@@ -4,7 +4,8 @@
   "description": "Template Node + TS",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/server.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,12 @@
   "author": "Tiago de Oliveira <olvrti@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^27.4.0",
     "@types/node": "^17.0.17",
     "eslint": "^7.12.1",
     "git-commit-msg-linter": "^4.0.7",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
   },
