@@ -1,0 +1,9 @@
+{
+  "name": "joker-giggle",
+  "version": "1.0.0",
+  "description": "Template Node + TS",
+  "main": "index.js",
+  "repository": "github.com/olvrti/joker-giggle.git",
+  "author": "Tiago de Oliveira <olvrti@gmail.com>",
+  "license": "MIT"
+}
